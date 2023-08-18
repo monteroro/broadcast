@@ -9,7 +9,7 @@ radio.onReceivedNumber(function (receivedNumber) {
     }
     if (receivedNumber == 2) {
         music.setVolume(200)
-        music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Funk), music.PlaybackMode.InBackground)
+        music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Blues), music.PlaybackMode.InBackground)
         for (let index = 0; index < 4; index++) {
             basic.showIcon(IconNames.Square)
             basic.showIcon(IconNames.SmallSquare)
